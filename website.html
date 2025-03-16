@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Learning JS like a Child</title>
+
+        <!--CSS(Cascading Style sheets)-->
+        <style>
+            button {
+                background-color: red;
+                color: white;
+                padding: 12px;
+                border: none;
+                cursor: pointer;
+            }
+
+            .green-button {
+                background-color: green;
+                color: white;
+                padding: 10px;
+                border: none;
+            }
+            .green-button:hover {
+                background-color: peru;
+                cursor: pointer;
+                border-radius: 24px;
+                padding: 12px 32px;
+            }
+
+            .btn-cart {
+                background: yellow;
+                color: black;
+                border: 1px solid black;
+                padding: 8px 10px;
+            }
+            .btn-buy {
+                background: orange;
+                color: black;
+                border: 1px solid black;
+                padding: 8px 10px;
+            }
+
+            .card-container {
+                background-color: aliceblue;
+                padding: 24px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <button>Hello Automation Engineer!</button>
+        <p>I am teaching myself code like a child! Love love this for me!</p>
+
+        <button
+            onlick="
+            alert('SayHello to Automation Engineer Gatwiri Ireri');
+        "
+        >
+            Hello!
+        </button>
+        <!-- HTML ELEMENTS
+        <button></button>
+
+        <div></div>
+        <span> </span>
+        <input type placeholder="" />
+    -->
+
+        <!--
+nesting is when we have an element inside another element:
+Example
+-->
+
+        <p>
+            Hello Automation Engineer Gatwiri
+            <button>Hii lazima ijipe!</button>
+            I love your dedication, it is quite admirable!
+        </p>
+
+        <!--html attributes-->
+        <button title="tooltip" class="green-button">Add to Cart</button>
+
+        <!--Exercises Time-->
+        <button>Click</button>
+
+        <button>Automation Engineer Gatwiri Ireri</button>
+
+        <button>Pilau</button>
+
+        <p>Hello World! Softlaunching rich mama aka Automation Engineer!</p>
+
+        <p>
+            I have spent my Friday learning code with the help of Super Simple
+            Dev! Work up at 5: 45, started coding at 6:10, till around 8:00 and
+            then too a nap till 10:25. Later on started learning without coding!
+            Currently, I am learning while coding! Yeey! I am proud!
+        </p>
+
+        <button class="btn-cart">Add to cart</button>
+        <button class="btn-buy">Buy Now</button>
+
+        <!-- Creating a Card!-->
+        <div class="card-container">
+            <h3>Adults Plain Cotton T-Shirt</h3>
+            <h4>Price: $7.99</h4>
+            <div class="btn-container">
+                <button
+                    onclick="
+                alert('Add Items to Cart')
+                    "
+                    class="btn-cart"
+                >
+                    Add to cart
+                </button>
+                <button
+                    onclick="
+                alert('Loading...')"
+                    class="btn-buy"
+                >
+                    Buy Now
+                </button>
+            </div>
+        </div>
+
+        <script>
+            /**multline comments
+             **/
+
+            //alert('Good Morning Automation Engineer!');
+
+            // console.log(2 + 2);
+            //console.log('Automation Engineer!');
+            console.log('Welcome to Javascript Baby!');
+            //alert('learning Javascript like a baby!');
+        </script>
+    </body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cart Quantity</title>
+    </head>
+    <body>
+        <!--Note, we will be using the DOM for all this, just doing it to learn the basics! -->
+        <button onclick="console.log(`Cart quantity: ${cartQuantity}`);">
+            Show Quantity
+        </button>
+
+        <button
+            onclick="
+        cartQuantity++;
+        console.log(`Cart quantity: ${cartQuantity}`);
+        "
+        >
+            Add to Cart
+        </button>
+
+        <button
+            onclick="
+        cartQuantity += 2;
+        console.log(`Cart quantity: ${cartQuantity}`);
+        "
+        >
+            +2
+        </button>
+
+        <button
+            onclick="
+        cartQuantity= cartQuantity +3;
+        console.log(`Cart quantity: ${cartQuantity}`);
+        "
+        >
+            +3
+        </button>
+
+        <button
+            onclick="
+        cartQuantity= cartQuantity +4;
+        console.log(`Cart quantity: ${cartQuantity}`);
+        "
+        >
+            +4
+        </button>
+
+        <button
+            onclick="
+        cartQuantity= cartQuantity +5;
+        console.log(`Cart quantity: ${cartQuantity}`);
+        "
+        >
+            +5
+        </button>
+
+        <button
+            onclick="
+        cartQuantity= cartQuantity -1;
+        console.log(`Cart quantity: ${cartQuantity}`);
+        "
+        >
+            Remove Cart
+        </button>
+
+        <button
+            onclick="
+        cartQuantity= cartQuantity -2;
+        console.log(`Cart quantity: ${cartQuantity}`);
+        "
+        >
+            -2
+        </button>
+
+        <button
+            onclick="
+        cartQuantity= cartQuantity -3;
+        console.log(`Cart quantity: ${cartQuantity}`);
+        "
+        >
+            -3
+        </button>
+
+        <button
+            onclick="
+        cartQuantity = 0;
+        console.log('Cart was reset');
+        console.log(`Cart quantity: ${cartQuantity}`);
+        "
+        >
+            Reset Cart
+        </button>
+
+        <script>
+            let cartQuantity = 0;
+
+            // Lesson 5 Exercises
+            //Question 1
+            let name = 'Gatwiri';
+            console.log(`My name is ${name}`);
+
+            //Question 2
+            let coffee = 500;
+            let bagels = 300 * 2;
+            let soup = 900;
+
+            let cost = ((coffee + bagels + soup) * 0.1) / 100;
+            console.log(cost);
+
+            //Question 3
+        </script>
+    </body>
+</html>
